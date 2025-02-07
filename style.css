@@ -334,6 +334,7 @@
    margin-bottom: 25px;
    width: auto;
    padding: 0 45px;
+   font-size: 16px;
 }
 
 input::-webkit-outer-spin-button,

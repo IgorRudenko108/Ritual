@@ -586,6 +586,7 @@ body {
 .callback__left-text__title {
     font-size: 62px;
     font-weight: 700;
+    color: #333;
 }
 
 .callback__left-text__phone {
@@ -605,6 +606,7 @@ body {
     font-size: 28px;
     width: 600px;
     height: auto;
+    color: #292929;
 }
 
 .choice h2 {
@@ -742,24 +744,35 @@ body {
 .custom-checkbox2+label::before {
     content: '';
     display: inline-block;
-    width: 21px;
-    height: 21px;
+    width: 30px;
+    height: 30px;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 3px solid #5F5F5F;
-    /* border-radius: 0.25em; */
-    margin-right: 0.5em;
+    border: 1px solid #5F5F5F;
+    margin-right: 15px;
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
 }
 .custom-checkbox2:checked+label::before {
-    /* background-image: url("imgs/consultation/checked.png"); */
-    background-image: none;
+    background-image: url(imgs/service/yes.png);
 }
 .custom-checkbox2:disabled+label::before {
-    background-color: #e9ecef;
+    background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .service h2 {
     margin-bottom: 20px;
@@ -837,20 +850,6 @@ body {
 .service__tabs__right label span {
     width: calc(100% - 66px);
 }
-
-.service__tabs__right label::before {
-    content: '';
-    display: block;
-    border: 2px solid #9C9C9C;
-    width: 34px;
-    height: 34px;
-    background-image: url(imgs/service/yes.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: 22px;
-
-}
-
 
 .service__complex {
     display: none;

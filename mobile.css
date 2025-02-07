@@ -4,6 +4,10 @@
 
 @media screen and (max-width: 1600px) {
 
+    .bottom-cards__item-title {
+        font-size: 24px;
+    }
+
     .footer__nav {
         margin-left: 50px;
         gap: 50px;
@@ -85,6 +89,15 @@
 }
 
 @media screen and (max-width: 1440px) {
+
+    .bottom-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bottom-cards__item {
+        align-items: center;
+    }
+
     .header__top-logo--right {
         display: none;
     }
@@ -95,6 +108,10 @@
 
     .articles__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .order__wrap {
+        gap: 20px;
     }
 
 }
@@ -161,6 +178,21 @@
 }
 
 @media screen and (max-width: 1366px) {
+
+    .callback2__right-description {
+        font-size: 30px;
+    }
+
+    .order__left-text1,
+    .order__left-text3,
+    .order__right-text1,
+    .order__right-text2 {
+        font-size: 28px;
+    }
+
+    .order__left-text2 {
+        font-size: 35px;
+    }
 
     header.scrolled .header__top-logo,
     header.scrolled .header__top-logo--right,
@@ -265,6 +297,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+    .cardmoscow {
+        gap: 30px;
+    }
 
     .about__wrap div {
         font-size: 20px;
@@ -396,6 +432,28 @@
 }
 
 @media screen and (max-width: 992px) {
+    
+    .callback2 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px 30px 80px;
+    }
+
+    .callback2__right {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 20px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .order__wrap {
+        display: flex;
+        flex-direction: 
+        column;
+    }
 
     .header__top-nav__child-menu1__title-sub__child {
         gap: 15px;
@@ -906,6 +964,16 @@
 
 @media screen and (max-width: 840px) {
 
+    .cardmoscow {
+        flex-direction: column-reverse;
+    }
+   
+    .cardmoscow img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
     .news__list-right {
         display: flex;
         flex-direction: column;
@@ -917,6 +985,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .bottom-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .callback__right {
         font-size: 20px;
@@ -950,6 +1022,25 @@
 }
 
 @media screen and (max-width: 680px) {
+
+    .callback2__left-title,
+    .callback2__right-title {
+        font-size: 20px;
+    }
+
+    .callback2 {
+        background-position: 10px 30px;
+        background-size: 30px;
+        padding: 20px 15px 20px 60px;
+    }
+
+    .callback2__left-description {
+        font-size: 16px;
+    }
+
+    .callback2__right-description {
+        font-size: 26px;
+    }
 
     header.scrolled .header__top-logo--right {
         display: none;
@@ -1028,6 +1119,17 @@
 
 @media screen and (max-width: 575px) {
 
+    .order__left-text1,
+    .order__left-text3,
+    .order__right-text1,
+    .order__right-text2 {
+        font-size: 20px;
+    }
+
+    .order__left-text2 {
+        font-size: 24px;
+    }
+
     header.scrolled .tg-item,
     header.scrolled .phone-item,
     header.scrolled .header__bottom {
@@ -1084,7 +1186,8 @@
         row-gap: 20px;
     }
     
-    .service h2 {
+    .service h2,
+    .order h2 {
         font-size: 28px;
     }
 
@@ -1174,6 +1277,14 @@
 }
 
 @media screen and (max-width: 425px) {
+
+    .bottom-cards__item-title {
+        font-size: 20px;
+    }
+
+    .bottom-cards__item-description {
+        font-size: 16px;
+    }
 
     header.scrolled .header__top-controls {
         display: none;

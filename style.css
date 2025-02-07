@@ -609,3 +609,251 @@ section {
 .header__top-nav__child-service .header__top-nav__child-menu1__title-sub__child a {
    text-transform: capitalize;
 }
+
+/* -- price-page ------------------------------------------------------------------------------------------------- */
+.breadcrumbs__box {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.breadcrumbs__item {
+   text-decoration: none;
+   color: #808080;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 100%;
+}
+
+.breadcrumbs__item:not(:last-child) {
+   padding-right: 30px;
+   background-image: url(/imgs/arrow-line.svg);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+}
+
+.breadcrumbs__item.active {
+   color: #CC0029;
+   pointer-events: none;
+}
+
+/* Карта москвича */
+.cardmoscow {
+   display: flex;
+   column-gap: 50px;
+   background-color: #D8F1F6;
+   padding: 20px;
+   margin-bottom: 30px;
+   align-items: center;
+   border-radius: 12px;
+}
+
+.cardmoscow__info-title {
+   margin-bottom: 10px;
+   font-size: 24px;
+   font-weight: bold;
+   color: #333;
+}
+
+.cardmoscow__info-description {
+   font-size: 20px;
+}
+
+/* -------------------------------------- */
+.order h2 {
+   color: #333;
+   font-size: 33px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+
+.order__wrap {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 50px;
+}
+
+.order__left {
+   background-color: #F5F5F5;
+   height: auto;
+   padding: 20px 30px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-image: url(/imgs/1-bg.png);
+   background-position: 50px bottom;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.order__left-text1 {
+   font-size: 32px;
+}
+
+.order__left-text2 {
+   font-size: 44px;
+   color: #cc0029;
+   font-weight: 700;
+   text-decoration: none;
+   margin: 10px 0;
+   display: block;
+}
+
+.order__left-text3 {
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.order__right {
+   background-color: #F5F5F5;
+   height: auto;
+   padding: 20px 30px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-image: url(/imgs/2-bg.png);
+   background-position: 50px bottom;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.order__right-text1 {
+   font-size: 32px;
+}
+
+.order__right-text2 {
+   font-size: 35px;
+   color: #cc0029;
+   margin: 10px 0;
+}
+
+.order__right-text3 {
+   font-size: 17px;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.order__right-text3 a {
+   text-decoration: none;
+   color: #000;
+}
+
+.order__right-text3 img {
+   margin-right: 10px;
+}
+
+
+
+/* Обратный звонок */
+.callback2 {
+   background-color: #FEF6F6;
+   display: flex;
+   gap: 30px;
+   justify-content: space-between;
+   padding: 35px 40px 35px 80px;
+   margin: 20px 0;
+   background-image: url(imgs/pages/price/callback/attention.png);
+   background-repeat: no-repeat;
+   background-position: 20px center;
+}
+
+.callback2__left {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 8px;
+}
+
+.callback2__left-title {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 6px;
+   text-transform: uppercase;
+}
+
+.callback2__left-description {
+   font-size: 20px;
+}
+
+.callback2__right {
+   text-align: right;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.callback2__right-title {
+   font-size: 26px;
+}
+
+.callback2__right-description {
+   font-size: 44px;
+   font-weight: bold;
+   text-decoration: none;
+   color: #333;
+   white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------- */
+.bottom-cards {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+
+.bottom-cards__item {
+   background-color: #D8F1F6;
+   padding: 10px 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   text-decoration: none;
+   transition: background-color .2s ease-in-out;
+}
+
+.bottom-cards__item:hover {
+   transition: background-color .2s ease-in-out;
+   background-color: #4064C0;
+}
+
+.bottom-cards__item:hover .bottom-cards__item-title,
+.bottom-cards__item:hover .bottom-cards__item-description {
+   transition: color .2s ease-in-out;
+   color: #fff;
+}
+
+.bottom-cards__item--1 {
+   background-image: url(/imgs/card-icon.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+   padding-right: 90px;
+}
+
+.bottom-cards__item-title {
+   color: #0E0E0F;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 105%;
+   transition: color .2s ease-in-out;
+}
+
+.bottom-cards__item-description {
+   color: #0E0E0F;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 115%;
+   transition: color .2s ease-in-out;
+}

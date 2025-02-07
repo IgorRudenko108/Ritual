@@ -715,9 +715,11 @@ body {
     background-position: center right;
     background-size: contain;
 }
+
 .custom-checkbox:checked+label::before {
     background-image: url("imgs/consultation/checked.png");
 }
+
 .custom-checkbox:disabled+label::before {
     background-color: #e9ecef;
 }

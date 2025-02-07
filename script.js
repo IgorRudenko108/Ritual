@@ -50,10 +50,10 @@ window.addEventListener("scroll", function () {
 });
 // ----------------------------------------------------------------------
 
-const video = document.getElementById("myVideo");
-
-video.addEventListener("click", function () {
-  if (!video.hasAttribute("controls")) {
-    video.setAttribute("controls", "true"); 
-  }
-});
+document.querySelectorAll("video").forEach(video => {
+    video.addEventListener("click", function () {
+      if (!video.hasAttribute("controls")) {
+        video.setAttribute("controls", "true");
+      }
+    });
+  });

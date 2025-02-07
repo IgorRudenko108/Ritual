@@ -615,7 +615,7 @@ section {
    display: flex;
    align-items: center;
    gap: 10px;
-   margin-bottom: 20px;
+   margin-top: 30px;
 }
 
 .breadcrumbs__item {
@@ -857,4 +857,125 @@ section {
    font-weight: 400;
    line-height: 115%;
    transition: color .2s ease-in-out;
+}
+/* --------------------------------------------------- */
+
+.contacts-info {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+   margin-bottom: 50px;
+}
+
+.contacts-info__box {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: space-between;
+   max-width: 520px;
+   width: 100%;
+}  
+
+.contacts-info__li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 60px;
+}
+
+.contacts-info__item {
+   color: #263238;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 150%; 
+}
+
+.contacts-info__link {
+   color: #263238;
+   text-align: center;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%; 
+   text-decoration: none;
+}
+
+.contacts-info__content p,
+.contacts-info__content div {
+   font-size: 24px;
+}
+
+.contacts-info__content img {
+   height: 18px;
+   margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------ */
+.online {
+   margin-bottom: 60px;
+}
+
+.online__title {
+   color: #333;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+
+.online__body {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 50px;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   width: 100%;
+}
+
+.online__info {
+   color: #333;
+   text-align: center;
+   font-size: 23px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%;
+   margin: 0 auto;
+}
+
+.online__link {
+   color: #CC0029;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%;
+   padding-left: 60px;
+   background-image: url(/imgs/360.svg);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 45px;
+   text-decoration: none;
+}
+
+.online__link:hover {
+   text-decoration: underline;
+}
+
+
+.map__wrap-text--360 {
+   width: 30px;
+}
+
+.contacts-info__mail,
+.contacts-info__tel {
+   color: #263238!important;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.map__wrap-text .contacts-info__mail,
+.map__wrap-text .contacts-info__tel {
+   font-size: 16px;
 }

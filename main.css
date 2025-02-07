@@ -1272,6 +1272,13 @@ body {
     gap: 50px;
 }
 
+.map__wrap-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
 .map__wrap-text p span {
     color: #CC0029;
 }
@@ -1290,7 +1297,6 @@ body {
     align-items: flex-start;
     gap: 10px;
     font-size: 16px;
-    margin-bottom: 10px;
 }
 
 .map__wrap-text .map__wrap-red {

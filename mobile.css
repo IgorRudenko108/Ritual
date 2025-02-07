@@ -90,6 +90,10 @@
 
 @media screen and (max-width: 1440px) {
 
+    .online__body {
+        gap: 20px;
+    }
+
     .bottom-cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -298,6 +302,16 @@
 
 @media screen and (max-width: 1200px) {
 
+    .online__body {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .contacts-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .cardmoscow {
         gap: 30px;
     }
@@ -432,6 +446,14 @@
 }
 
 @media screen and (max-width: 992px) {
+
+    .online__link {
+        font-size: 24px;
+    }
+
+    .online__title {
+        font-size: 30px;
+    }
     
     .callback2 {
         display: flex;
@@ -476,6 +498,11 @@
 
     header.scrolled .header__top {
         height: 50px;
+        transition: all .3s linear;
+    }
+   
+    header.scrolled .header__top-logo__item img {
+        width: 35px;
         transition: all .3s linear;
     }
    
@@ -986,6 +1013,10 @@
 
 @media screen and (max-width: 768px) {
 
+    .online__title {
+        font-size: 24px;
+    }
+
     .bottom-cards {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1022,6 +1053,45 @@
 }
 
 @media screen and (max-width: 680px) {
+
+    .contacts-info__mail,
+    .contacts-info__tel {
+        font-size: 16px;
+    }
+
+    .online {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .online__body {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .contacts-info__item,
+    .contacts-info__link {
+        font-size: 16px;
+    }
+
+    .contacts-info__li {
+        gap: 20px;
+    }
+
+    .contacts-info__box {
+        max-width: 100%;
+    }
+
+    .contacts-info__content div a {
+        display: inline-block;
+        margin: 12px 0 0 12px;
+    }
+
+    .contacts-info__content p,
+    .contacts-info__content div {
+        font-size: 16px;
+    }
 
     .callback2__left-title,
     .callback2__right-title {
@@ -1118,6 +1188,12 @@
 }
 
 @media screen and (max-width: 575px) {
+
+    .online__link {
+        font-size: 16px;
+        background-size: 25px;
+        padding-left: 35px;
+    }
 
     .order__left-text1,
     .order__left-text3,

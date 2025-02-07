@@ -970,6 +970,7 @@ section {
 .map__wrap-text .contacts-info__mail,
 .map__wrap-text .contacts-info__tel {
    font-size: 16px;
+   color: #263238!important;
 }
 
 .contacts-info__content .contacts-info__mail,

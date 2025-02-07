@@ -629,10 +629,10 @@ section {
 
 .breadcrumbs__item:not(:last-child) {
    padding-right: 30px;
-   background-image: url(/imgs/arrow-line.svg);
+   background-image: url(imgs/arrow-line.svg);
    background-repeat: no-repeat;
    background-position: right;
-   background-size: contain;
+   background-size: 15px;
 }
 
 .breadcrumbs__item.active {

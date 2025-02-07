@@ -709,7 +709,7 @@ body {
     height: 21px;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 2px solid #5F5F5F;
+    border: 1px solid #5F5F5F;
     margin-right: 0.5em;
     background-repeat: no-repeat;
     background-position: center right;
@@ -799,7 +799,7 @@ body {
 
 .service__tabs-item span {
     color: #898686;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
 }
 
@@ -810,7 +810,7 @@ body {
 }
 
 .service__tabs-item.active {
-    border-bottom: 5px solid #CC0029;
+    border-bottom: 3px solid #CC0029;
 }
 
 .service__tabs-item.active span {

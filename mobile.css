@@ -1054,8 +1054,8 @@
 
 @media screen and (max-width: 680px) {
 
-    .contacts-info__mail,
-    .contacts-info__tel {
+    .contacts-info__content .contacts-info__mail,
+    .contacts-info__content .contacts-info__tel {
         font-size: 16px;
     }
 

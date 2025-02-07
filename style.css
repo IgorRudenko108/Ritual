@@ -967,15 +967,15 @@ section {
    width: 30px;
 }
 
-.contacts-info__mail,
-.contacts-info__tel {
+.map__wrap-text .contacts-info__mail,
+.map__wrap-text .contacts-info__tel {
+   font-size: 16px;
+}
+
+.contacts-info__content .contacts-info__mail,
+.contacts-info__content .contacts-info__tel {
    color: #263238!important;
    font-size: 24px;
    font-style: normal;
    font-weight: 400;
-}
-
-.map__wrap-text .contacts-info__mail,
-.map__wrap-text .contacts-info__tel {
-   font-size: 16px;
 }

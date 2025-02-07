@@ -382,6 +382,7 @@ body {
     margin-top: auto;
     height: 40px;
     min-height: 40px;
+    font-size: 14px;
 }   
 
 .div6 { 
@@ -547,10 +548,10 @@ body {
     font-size: 18px;
 }
 
-.about {
+/* .about {
     padding-bottom: 80px;
     margin-top: 50px;
-}
+} */
 
 .about__wrap {
     display: flex;
@@ -566,7 +567,6 @@ body {
 }
 
 .callback {
-    margin-bottom: 40px;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -599,7 +599,6 @@ body {
     font-size: 30px;
 }
 
-
 .callback__right {
     padding: 22px 35px;
     background-color: #F3E8E8;
@@ -607,10 +606,6 @@ body {
     width: 600px;
     height: auto;
 }
-
-
-
-
 
 .choice h2 {
     margin-bottom: 20px;
@@ -666,9 +661,6 @@ body {
     padding-left: 20px;
     font-size: 19px;
 }
-/* .consultation input[type="text"]:not(:last-of-type),
-.consultation input[type="number"]:not(:last-of-type) {
-} */
 
 .consultation input[type="text"], .consultation button,
 .consultation input[type="number"] {
@@ -799,13 +791,13 @@ body {
 }
 
 .service__tabs-item {
-    border-bottom: 2px solid #898686;
+    border-bottom: 3px solid #898686;
     padding-bottom: 5px;
     cursor: pointer;
 }
 
 .service__tabs-item.active {
-    border-bottom: 2px solid #CC0029;
+    border-bottom: 5px solid #CC0029;
 }
 
 .service__tabs-item.active span {
@@ -863,7 +855,6 @@ body {
 .service__complex {
     display: none;
     column-gap: 18px;
-    margin-bottom: 80px;
 }
 
 .service__complex.active {
@@ -873,7 +864,6 @@ body {
 
 .service__complex-item {
     background-color: #F7F7F7;
-    /* width: 305px; */
     width: 20%;
 }
 
@@ -918,7 +908,8 @@ body {
 
 }
 .service__complex-item__price-value {
-    font-size: 29px;
+    font-size: 30px;
+    font-weight: 600;
     color: #333;
 }
 
@@ -969,10 +960,6 @@ body {
     width: calc(100% - 60px);
 }
 
-.advantages {
-    margin-bottom: 80px;
-}
-
 .advantages__list-box {
     column-gap: 20px;
     row-gap: 50px;
@@ -1011,12 +998,8 @@ body {
     border: 2px solid #27ABD4;
 }
 
-.reviews {
-    margin-bottom: 65px;
-}
-
 .reviews h2 {
-    margin-bottom: 50px;
+    padding: 30px 0;
 }
 
 .reviews__wrap {
@@ -1065,10 +1048,6 @@ body {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 20px;
-}
-
-.news {
-    margin-bottom: 60px;
 }
 
 .news h2 {
@@ -1165,10 +1144,6 @@ body {
     color: #333;
 }
 
-.articles {
-    margin-bottom: 60px;
-}
-
 .articles h2 {
     margin-bottom: 30px;
 }
@@ -1216,14 +1191,9 @@ body {
     transition: color .2s ease-in-out;
 }
 
-.smi {
-    margin-bottom: 60px;
-}
-
 .smi h2 {
     margin-bottom: 30px;
 }
-
 
 .smi__list {
    display: grid;
@@ -1338,7 +1308,6 @@ body {
 
 footer {
     padding-top: 50px;
-    margin-top: 50px;
     border-top: 1px solid #D8D6D1;
 }
 
@@ -1620,7 +1589,7 @@ footer {
 .header__top-nav__child-menu1__title-sub__child a {
     font-size: 13px !important;
     font-weight: 400 !important;
-    text-transform: math-auto !important;
+    /* text-transform: math-auto !important; */
     text-align: left;
     white-space: nowrap;
     padding: 5px 0;

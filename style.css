@@ -91,9 +91,6 @@
 
 .header__top-search {
    background: transparent;
-   /* width: 17px; */
-   /* height: 16px; */
-   /* flex: 0 0 16px; */
    padding: 15px;
    cursor: pointer;
 }
@@ -110,7 +107,7 @@
 
 .header__top-search-body.visible {
    width: 380px;
-   border: 2px solid #222;
+   border: 1px solid #222;
    transition: width .3s ease-in-out;
 }
 
@@ -372,7 +369,7 @@ input[type='number'] {
    margin: 35px auto 0;
    cursor: pointer;
    transition: color .2s ease-in-out;
-   border: 2px solid #333;
+   border: 1px solid #333;
    width: fit-content;
    text-decoration: none;
 }
@@ -389,8 +386,9 @@ input[type='number'] {
 }
 
 .more-reviews:hover {
-   transition: color .2s ease-in-out;
-   color: #000;
+   transition: all .2s ease-in-out;
+   color: #4064C0;
+   border-color: #4064C0;
 }
 
 .reviews__list-item__text-message {
@@ -598,3 +596,15 @@ header.scrolled .header__bottom {
    height: 50px;
 }
 
+section {
+   padding: 40px 0;
+}
+
+.advantages-section,
+.firstScreen {
+   padding: 0;
+}
+
+.header__top-nav__child-service .header__top-nav__child-menu1__title-sub__child a {
+   text-transform: capitalize;
+}

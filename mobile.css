@@ -396,6 +396,19 @@
 }
 
 @media screen and (max-width: 992px) {
+
+    .header__top-nav__child-menu1__title-sub__child {
+        gap: 15px;
+    }
+
+    .service__complex-item__button {
+        height: 50px;
+    }
+
+    .firstscreen__advantages2-item--button {
+        font-size: 16px;
+        min-height: 50px;
+    }
     
     header.scrolled .header__top-logo,
     header.scrolled .header__top-logo--right,
@@ -611,7 +624,7 @@
     }
 
     .header__top-nav ul {
-        padding: 30px 25px 50px 10px;
+        padding: 30px 10px 50px 10px;
         height: 100%;
         justify-content: flex-start;
         align-items: flex-end;
@@ -833,14 +846,6 @@
         height: auto;
     }
 
-    .service {
-        margin-top: 40px;
-    }
-   
-    .reviews {
-        margin-top: 40px;
-    }
-
     .reviews__wrap {
         flex-direction: column;
         column-gap: 0;
@@ -856,11 +861,6 @@
 
     .reviews__list-item {
         height: auto;
-    }
-
-
-    .articles {
-        margin-top: 40px;
     }
 
     .articles__list {
@@ -1294,7 +1294,7 @@
      
      .header__top-search-body--2.visible {
         width: 230px;
-        border: 2px solid #222;
+        border: 1px solid #222;
         transition: width .3s ease-in-out;
      }
 

@@ -47,5 +47,13 @@ window.addEventListener("scroll", function () {
     } else {
       header.classList.remove("scrolled");
     }
-  });
-  
+});
+// ----------------------------------------------------------------------
+
+const video = document.getElementById("myVideo");
+
+video.addEventListener("click", function () {
+  if (!video.hasAttribute("controls")) {
+    video.setAttribute("controls", "true"); 
+  }
+});

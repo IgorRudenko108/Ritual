@@ -514,3 +514,87 @@ input[type='number'] {
 .section {
    padding: 40px 0;
 }
+
+.funeral-item,
+.creamtion-item,
+.tg-item {
+   transition: background-color .2s ease-in-out;
+}
+
+.funeral-item:hover,
+.creamtion-item:hover,
+.tg-item:hover {
+   background-color: #97001e;
+   transition: background-color .2s ease-in-out;
+}
+/* ---------------------------------------------------------------- */
+
+header {
+   background: white;
+   z-index: 99;
+   transition: all 0.3s ease;
+}
+
+header.scrolled {
+   padding: 0;
+   background: transparent;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   transition: all .3s linear;
+}
+
+header.scrolled .header__botom-logo {
+   transition: all .3s linear;
+   opacity: 0;
+}
+
+header.scrolled .funeral-item span,
+header.scrolled .creamtion-item span,
+header.scrolled .tg-item span,
+header.scrolled .phone-item__top {
+   transition: all .3s linear;
+   opacity: 0;
+   visibility: hidden;
+   display: none;
+}
+
+header.scrolled .phone-item,
+header.scrolled .header__bottom-nav ul::after {
+   transition: all .3s linear;
+   height: 50px;
+}
+
+header.scrolled .phone-item__top {
+   font-size: 12px;
+   transition: all .3s linear;
+   height: auto;
+}
+
+header.scrolled .phone-item__bottom {
+   font-size: 18px;
+   transition: all .3s linear;
+}
+
+header.scrolled .header__top {
+   padding: 5px 0;
+   min-height: 40px;
+   transition: all .3s linear;
+}
+
+header.scrolled .header__top-nav__child-about.active,
+header.scrolled .header__top-nav__child-service,
+header.scrolled .header__top-nav__child-funeral,
+header.scrolled .header__top-nav__child-info {
+   top: 50px;
+}
+
+header.scrolled .funeral-item,
+header.scrolled .creamtion-item,
+header.scrolled .tg-item,
+header.scrolled .header__bottom {
+   transition: all .3s linear;
+   height: 50px;
+}
+

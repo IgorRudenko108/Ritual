@@ -150,6 +150,10 @@ body {
     position: relative;
 }
 
+.header__bottom-nav ul a {
+    text-decoration: none;
+}
+
 .header__bottom-nav ul::after {
     content: '';
     position: absolute;
@@ -164,23 +168,27 @@ body {
     list-style-type: none;
 }
 .header__botom-logo {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
+   transition: all .3s linear;
 }
 
 .funeral-item {
     background-color: #A9BFFA;
     clip-path: polygon(50px 0%, 100% 0%, 140px 100%, 0% 100%);
+    transition: all .3s linear;
 }
 
 .creamtion-item {
     background-color: #7494E7;
     clip-path: polygon(50px 0%, 100% 0%, 140px 100%, 0% 100%);
+    transition: all .3s linear;
 }
 
 .tg-item {
     background-color: #4064C0;
     clip-path: polygon(50px 0%, 100% 0%, 140px 100%, 0% 100%);    
+    transition: all .3s linear;
 }
 
 .funeral-item, .creamtion-item, .tg-item {
@@ -707,8 +715,7 @@ body {
     height: 21px;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 3px solid #5F5F5F;
-    /* border-radius: 0.25em; */
+    border: 2px solid #5F5F5F;
     margin-right: 0.5em;
     background-repeat: no-repeat;
     background-position: center right;
@@ -842,7 +849,7 @@ body {
 .service__tabs__right label::before {
     content: '';
     display: block;
-    border: 1px solid #9C9C9C;
+    border: 2px solid #9C9C9C;
     width: 34px;
     height: 34px;
     background-image: url(imgs/service/yes.png);

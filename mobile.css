@@ -161,6 +161,20 @@
 }
 
 @media screen and (max-width: 1366px) {
+
+    header.scrolled .header__top-logo,
+    header.scrolled .header__top-logo--right,
+    header.scrolled .header__top-controls {
+        display: none;
+        transition: all .3s linear;
+    }
+
+    header.scrolled .header__top-nav__child-about.active,
+    header.scrolled .header__top-nav__child-service,
+    header.scrolled .header__top-nav__child-funeral,
+    header.scrolled .header__top-nav__child-info {
+        top: 40px;
+    }
     
     .footer__wrap {
         flex-direction: column-reverse;
@@ -223,10 +237,6 @@
     .header__top-logo--right {
         display: block;
         width: 130px;
-    }
-
-    .header__top {
-        height: 110px;
     }
 
     .header__top-body-container {
@@ -318,7 +328,7 @@
     }
 
     .header__botom-logo {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .header__botom-logo {
@@ -386,7 +396,18 @@
 }
 
 @media screen and (max-width: 992px) {
+    
+    header.scrolled .header__top-logo,
+    header.scrolled .header__top-logo--right,
+    header.scrolled .header__top-controls {
+        display: flex;
+    }
 
+    header.scrolled .header__top {
+        height: 50px;
+        transition: all .3s linear;
+    }
+   
     .footer__nav {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -930,6 +951,10 @@
 
 @media screen and (max-width: 680px) {
 
+    header.scrolled .header__top-logo--right {
+        display: none;
+    }
+
     .articles__list {
         margin: 0 -10px;
     }
@@ -1002,6 +1027,13 @@
 }
 
 @media screen and (max-width: 575px) {
+
+    header.scrolled .tg-item,
+    header.scrolled .phone-item,
+    header.scrolled .header__bottom {
+        height: 35px;
+        transition: all .3s linear;
+    }
 
     .firstscreen__advantages-item {
         flex-direction: column;
@@ -1142,6 +1174,10 @@
 }
 
 @media screen and (max-width: 425px) {
+
+    header.scrolled .header__top-controls {
+        display: none;
+    }
 
     .contacts__tabs-item__text {
         font-size: 20px;

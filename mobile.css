@@ -1085,7 +1085,7 @@
     }
 
     .questions__item-title p {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .questions__item-answer {
@@ -1216,7 +1216,7 @@
     }
 
     .pagecomplex__list-elements__element-right__price {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .pagecomplex__list-tabs {
@@ -1244,8 +1244,17 @@
 
     .pagecomplex__list-tabs__element {
         width: 100%;
+        height: 70px;
     }
 
+    .pagecomplex__list-tabs__element span {
+        font-size: 20px;
+    }
+
+    .pagecomplex__list-tabs__element img {
+        width: 35px;
+    }
+    
     .organization__list {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -1327,6 +1336,7 @@
     .online__body {
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
+        margin-bottom: 0;
     }
 
     .contacts-info__item,

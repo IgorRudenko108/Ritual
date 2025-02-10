@@ -172,6 +172,7 @@ body {
     font-weight: bold;
    transition: all .3s linear;
    text-transform: uppercase;
+   color: #4A4A4A;
 }
 
 .funeral-item {

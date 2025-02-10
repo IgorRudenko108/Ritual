@@ -1123,3 +1123,11 @@ section {
 .cr-mobile__title {
    display: none;
 }
+
+.smi__list-item--color {
+   background-color: #F0F0F0;
+}
+
+.smi__list-item--color:hover {
+   background-color: #898686;
+}

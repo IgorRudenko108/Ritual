@@ -7,8 +7,8 @@
 }
     
 .div21 {
-    background-image: url(imgs/firstscreen/1.png);
-    background-size: cover;
+    /* background-image: url(imgs/firstscreen/1.png); */
+    /* background-size: cover; */
     position: relative;
     grid-area: 1 / 1 / 3 / 3; 
     overflow: hidden;

@@ -1,3 +1,7 @@
+a {
+   text-decoration: none;
+}
+
 .header__top {
    border-bottom: 1px solid #E6E9ED;
    background: #FFF;
@@ -293,7 +297,7 @@
    margin: auto 0 0 auto;
 }
 /* -------------------------------------------------------- */
-.firstScreen__item-title--star {
+.firstscreen__item-title--star {
    display: flex;
    align-items: center;
    gap: 10px;
@@ -303,7 +307,7 @@
    width: 100%;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 40px;
+   gap: 35px;
 }
 
 .firstscreen__advantages2 {
@@ -602,7 +606,7 @@ section {
 }
 
 .advantages-section,
-.firstScreen {
+.firstscreen {
    padding: 0;
 }
 
@@ -979,4 +983,143 @@ section {
    font-size: 24px;
    font-style: normal;
    font-weight: 400;
+}
+
+.firstscreen-img {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100%;
+   object-fit: cover;
+   vertical-align: top;
+}
+
+.firstscreen__item-title,
+.firstscreen__item-description {
+   position: relative;
+   z-index: 1;
+}
+
+.firstscreen__item-title {
+   position: relative;
+}
+
+@media (min-width: 992px) {
+   .firstscreen-img {
+     height: 100%;
+   }
+}
+
+.firstscreen-deco {
+   display: block;
+   position: absolute;
+   right: 0;
+   bottom: 100%;
+   width: 150px;
+}
+
+.cremation-online {
+   margin: 40px 0;
+
+}
+
+.firstscreen2-img {
+   position: absolute;
+   height: 100%;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.cremation__link {
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   transition: background.1s ease-in-out;
+}
+
+.cremation__link:hover {
+   transition: background .1s ease-in-out;
+   background: #7494e7;
+}
+
+.cremation__link:hover .cremation-card__text {
+   transition: color .1s ease-in-out;
+   color: #fff;
+}
+
+.div22 {
+   background-image: url(imgs/cr-deco-1.jpg);
+}
+
+.div23 {
+   background-image: url(imgs/cr-deco-3.jpg);
+}
+
+.div24 {
+   background-image: url(imgs/cr-deco-5.jpg);
+}
+
+.div25 {
+   background-image: url(imgs/cr-deco-2.jpg);
+}
+
+.div26 {
+   background-image: url(imgs/cr-deco-4.jpg);
+}
+
+.cremation-card__text {
+   color: #0E0E0F;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 120%;
+   max-width: 80%;
+   padding: 20px 15px;
+   transition: color .1s ease-in-out;
+  
+}
+
+.cremation__link--accent {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   padding: 10px 20px;
+   position: relative;
+}
+
+.cremation__link--accent span {
+   color: #FFF;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+}
+
+.cremation__link--accent a {
+   color: #FFF;
+   font-size: 34px;
+   font-style: normal;
+   font-weight: 700;
+   transition: color .2s ease-in-out;
+}
+
+.cremation__link--accent a:hover {
+   color: #CC0029;
+   transition: color .2s ease-in-out;
+}
+
+.firstscreen2-deco {
+   display: none;
+}
+
+.cremation__link-icon {
+   display: none;
+}
+
+.cr-mobile__title {
+   display: none;
 }

@@ -249,12 +249,8 @@ body {
     
 .div1 { 
     grid-area: 1 / 1 / 3 / 3; 
-
     overflow: hidden;
     position: relative;
-    /* background-image: url(imgs/firstscreen/1.png);
-    background-repeat: no-repeat;
-    background-position: top; */
     color: #fff;
     display: flex;
     flex-direction: column;
